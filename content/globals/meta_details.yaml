@@ -1,0 +1,6 @@
+title: 'Meta Details'
+blueprint: site_globals
+data:
+  site_name: Abbio.com
+  site_description: 'The instinctive LMS'
+  copyright: '&copy; 2020'

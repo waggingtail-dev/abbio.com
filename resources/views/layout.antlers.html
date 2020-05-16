@@ -4,13 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site_name }}</title>
+        <title>{{ title }} | {{ meta_details:site_name }} </title>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
         <script src="{{ mix src='/js/site.js' }}"></script>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     </head>
-    <body class="bg-gray-200 font-sans leading-normal text-grey-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
+    <body class="bg-gray-200 font-sans leading-normal text-grey-800 flex flex-col h-screen ">
+        
+        {{ partial:navbar }}
+
+        <div class="px-4 md:px-0 mx-auto max-w-4xl flex-1">
             {{ template_content }}
         </div>
+
+        {{ partial:footer }}
+
     </body>
 </html>

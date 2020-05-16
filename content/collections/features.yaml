@@ -1,0 +1,26 @@
+title: Features
+template: features/show
+layout: layout
+blueprints:
+  - feature
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1
+  tree:
+    -
+      entry: 2969f373-d77a-4e7f-afe3-221720ff896f
+    -
+      entry: f99e3ce1-68ee-48bb-b946-4bfc1c81461b
+    -
+      entry: 5f9b3467-4572-4867-8b1a-a32c7e8a8c1d
+    -
+      entry: d9b7aa76-29d7-4fb7-869b-0d492db79797
+    -
+      entry: d025a835-f638-4084-a011-73c0a289ac99
+    -
+      entry: 58e6ff6e-5d47-45b0-96de-64449bbf2c3b

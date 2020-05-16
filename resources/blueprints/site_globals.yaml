@@ -1,0 +1,29 @@
+title: 'Site Globals'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: site_name
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: 'Site Name'
+      -
+        handle: site_description
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: 'Site Description'
+      -
+        handle: copyright
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Copyright
