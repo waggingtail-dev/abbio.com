@@ -12,6 +12,7 @@
                 @click="open = true"
                 type="button"
                 class="inline-flex items-center justify-center p-2 rounded-md text-yellow-300 hover:text-gray-800 hover:bg-yellow-300 focus:outline-none focus:bg-yellow-100 focus:text-gray-800 transition duration-150 ease-in-out"
+                aria-label="Open Menu"
             >
                 <svg
                     class="h-6 w-6"
@@ -51,6 +52,7 @@
                 </a> -->
                 <span class="inline-flex rounded-md shadow-sm">
                     <button
+                        aria-label="Sign up coming soon"
                         class="disabled cursor-not-allowed inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-black bg-yellow-300 hover:bg-yellow-300"
                     >
                         Sign up (coming soon)
@@ -84,6 +86,7 @@
                         </div>
                         <div class="-mr-2">
                             <button
+                                aria-label="Close Menu"
                                 @click="open = false"
                                 type="button"
                                 class="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-yellow-300 hover:bg-gray-800 focus:outline-none focus:bg-gray-100 focus:text-gray-300 transition duration-150 ease-in-out"
