@@ -1,0 +1,36 @@
+title: 'Contact Forms'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Name
+      -
+        handle: email
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Email
+      -
+        handle: phone
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Phone
+      -
+        handle: message
+        field:
+          type: textarea
+          localizable: false
+          listable: hidden
+          display: Message
