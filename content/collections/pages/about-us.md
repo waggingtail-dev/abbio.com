@@ -3,7 +3,7 @@ title: 'About Us'
 author: cdd6d446-fbf6-4797-88f3-96075e42fb82
 template: home
 updated_by: cdd6d446-fbf6-4797-88f3-96075e42fb82
-updated_at: 1589695402
+updated_at: 1589696083
 id: 0079edae-9f3e-4f16-9d86-0b64466a97e1
 ---
 # About Us
@@ -31,7 +31,6 @@ When we win, our customers win – and we love playing offense.
 We love what we do and do what we love. It’s the only way.
 
 
-
-<br> Connect with me on [LinkedIn](http[]()s://www.linkedin.com/in/kerranm){:target="_blank"} if you want to chat more.
+<br> Connect with me on [**LinkedIn**](http[]()s://www.linkedin.com/in/kerranm){:target="_blank"} if you want to chat more.
 
 Kerran, Founder.
