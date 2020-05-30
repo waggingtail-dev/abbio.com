@@ -1,0 +1,25 @@
+title: FAQs
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: answer
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          localizable: false
+          listable: hidden
+          display: Answer
+      -
+        handle: category
+        field:
+          input_type: text
+          type: text
+          localizable: false
+          listable: hidden
+          display: Category

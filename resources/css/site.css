@@ -22,10 +22,36 @@ p {
   @apply text-base font-light leading-normal mb-2;
 }
 
+/* general links */
+a.highlighted {
+  @apply bg-gray-800 text-yellow-300 px-2 py-1;
+}
+
 #content a {
   @apply bg-gray-800 text-yellow-300 px-2 py-1;
 }
 
+.faqs div:not(:first-child) {
+  @apply mt-12
+}
+
+ul.pricing-features li:not(:first-child) {
+  @apply mt-5;
+  @screen lg {
+    @apply mt-0;
+  }
+}
+
+ul.pricing-features li {
+  @apply flex items-start;
+  @screen lg {
+    @apply col-span-1;
+  }
+}
+
+a {
+  @apply text-yellow-500;
+}
 
 @font-face {
   font-family: 'Inter';
