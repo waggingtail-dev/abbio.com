@@ -3,7 +3,8 @@
 module.exports = {
   purge: [
     './resources/views/**/*.html',
-    './resources/css/site.css'
+    './resources/views/*.html'
+    
   ],
   theme: {
     extend: {
