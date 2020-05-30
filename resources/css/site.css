@@ -1,6 +1,7 @@
 /* This is all you. */
+
 h1 {
-  @apply text-4xl font-black leading-none text-gray-800 mb-6;
+  @apply text-3xl font-black leading-none text-gray-800 mb-6;
   @screen md {
     @apply text-6xl;
   }
@@ -41,6 +42,7 @@ ul.pricing-features li:not(:first-child) {
     @apply mt-0;
   }
 }
+
 
 ul.pricing-features li {
   @apply flex items-start;
