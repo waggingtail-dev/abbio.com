@@ -2147,6 +2147,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -20150,46 +20152,51 @@ var render = function() {
                   "div",
                   { staticClass: "flex items-center justify-between" },
                   [
-                    _c(
-                      "div",
-                      { staticClass: "flex items-center text-gray-800" },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "fill-current  h-8",
-                            attrs: {
-                              viewBox: "0 0 96 89",
-                              fill: "none",
-                              xmlns: "http://www.w3.org/2000/svg"
-                            }
-                          },
-                          [
-                            _c("path", {
+                    _c("div", {}, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "flex items-center text-gray-800",
+                          attrs: { href: "/" }
+                        },
+                        [
+                          _c(
+                            "svg",
+                            {
+                              staticClass: "fill-current  h-8",
                               attrs: {
-                                "fill-rule": "evenodd",
-                                "clip-rule": "evenodd",
-                                d:
-                                  "M65.0879 9.99999C57.3899 -3.33334 38.1449 -3.33333 30.4469 10L2.70933 58.0429C-4.98868 71.3762 4.63384 88.0429 20.0299 88.0429H20.7231L30.4469 71.2008C38.1449 57.8674 57.3899 57.8674 65.0879 71.2008L74.8117 88.0429H75.505C90.901 88.0429 100.523 71.3762 92.8255 58.0428L65.0879 9.99999Z"
+                                viewBox: "0 0 96 89",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg"
                               }
-                            })
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "span",
-                          {
-                            staticClass:
-                              "ml-2 text-xl leading-6 font-medium transition ease-in-out duration-150"
-                          },
-                          [
-                            _vm._v(
-                              "\n                                  abbio\n                              "
-                            )
-                          ]
-                        )
-                      ]
-                    ),
+                            },
+                            [
+                              _c("path", {
+                                attrs: {
+                                  "fill-rule": "evenodd",
+                                  "clip-rule": "evenodd",
+                                  d:
+                                    "M65.0879 9.99999C57.3899 -3.33334 38.1449 -3.33333 30.4469 10L2.70933 58.0429C-4.98868 71.3762 4.63384 88.0429 20.0299 88.0429H20.7231L30.4469 71.2008C38.1449 57.8674 57.3899 57.8674 65.0879 71.2008L74.8117 88.0429H75.505C90.901 88.0429 100.523 71.3762 92.8255 58.0428L65.0879 9.99999Z"
+                                }
+                              })
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "ml-2 text-xl leading-6 font-medium transition ease-in-out duration-150"
+                            },
+                            [
+                              _vm._v(
+                                "\n                                      abbio\n                                  "
+                              )
+                            ]
+                          )
+                        ]
+                      )
+                    ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "-mr-2" }, [
                       _c(

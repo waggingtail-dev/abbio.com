@@ -3,6 +3,7 @@
 module.exports = {
   purge: {
     content: [
+      './resources/js/**/*.vue',
       './resources/views/**/*.html',
       './resources/views/*.html'
     ],
