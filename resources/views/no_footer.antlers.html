@@ -11,18 +11,15 @@
         <script src="{{ mix src='/js/site.js' }}" defer></script>
     </head>
     <body
-        class="bg-gray-200 font-sans leading-normal text-gray-800 flex flex-col h-screen"
+        class="font-sans leading-normal text-gray-800 flex flex-col h-screen"
     >
         <div id="app">
             {{ partial:navbar }}
-            
-            {{ template_content }}
+        
+                {{ template_content }}
 
-            {{ partial:general_contact_form }}
-
-            {{ partial:footer }}
+                {{ partial:footer }}
         </div>
-
         <script src="https://cdn.usefathom.com/script.js" site="DIHDMIIN" defer></script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-<div class="relative bg-gray-800 mb-10" x-data="{ open: false }">
+<div class="relative bg-gray-800 mb-10 z-0">
     <div
         class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10"
     >
@@ -7,27 +7,8 @@
                 {{ partial:logo }}
             </a>
         </div>
-        <div class="-mr-2 -my-2 md:hidden">
-            <button
-                @click="open = true"
-                type="button"
-                class="inline-flex items-center justify-center p-2 rounded-md text-yellow-300 hover:text-gray-800 hover:bg-yellow-300 focus:outline-none focus:bg-yellow-100 focus:text-gray-800 transition duration-150 ease-in-out"
-                aria-label="Open Menu"
-            >
-                <svg
-                    class="h-6 w-6"
-                    stroke="currentColor"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h16M4 18h16"
-                    />
-                </svg>
-            </button>
+        <div class="-mr-2 -my-2 md:hidden z-50">
+            <mobile-menu />
         </div>
         <div
             class="hidden md:flex-1 md:flex md:items-center md:justify-between md:space-x-12"
@@ -54,9 +35,6 @@
                     Contact
                 </a>
                 
-
-                
-
             </nav>
             <div class="flex items-center space-x-8">
                 <!-- <a
@@ -73,103 +51,6 @@
                         Sign up (coming soon)
                     </button>
                 </span>
-            </div>
-        </div>
-    </div>
-
-    <!--
-    Mobile menu, show/hide based on mobile menu state.
-  -->
-    <div
-        class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-        x-show="open"
-        x-transition:enter="transition ease-out duration-200"
-        x-transition:enter-start="opacity-0 transform scale-95"
-        x-transition:enter-end="opacity-100 transform scale-100"
-        x-transition:leave="transition ease-in duration-300"
-        x-transition:leave-start="opacity-100 transform scale-100"
-        x-transition:leave-end="opacity-0 transform scale-95"
-    >
-        <div class="rounded-lg shadow-lg">
-            <div
-                class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50"
-            >
-                <div class="pt-5 pb-6 px-5 space-y-6">
-                    <div class="flex items-center justify-between">
-                        <div class="flex items-center text-gray-800">
-                            {{ partial:logo }}
-                        </div>
-                        <div class="-mr-2">
-                            <button
-                                aria-label="Close Menu"
-                                @click="open = false"
-                                type="button"
-                                class="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-yellow-300 hover:bg-gray-800 focus:outline-none focus:bg-gray-100 focus:text-gray-300 transition duration-150 ease-in-out"
-                            >
-                                <svg
-                                    class="h-6 w-6"
-                                    stroke="currentColor"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12"
-                                    />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="py-6 px-5 space-y-6">
-                    <div class="grid grid-cols-2 gap-4">
-                        <a
-                            href="/features"
-                            class="text-base leading-6 font-medium text-gray-600 hover:text-gray-700 transition ease-in-out duration-150"
-                        >
-                            Features
-                        </a>
-
-                        <a
-                            href="/about-us"
-                            class="text-base leading-6 font-medium text-gray-600 hover:text-gray-700 transition ease-in-out duration-150"
-                        >
-                            About us
-                        </a>
-
-                        <a
-                            href="/contact-us"
-                            class="text-base leading-6 font-medium text-gray-600 hover:text-gray-700 transition ease-in-out duration-150"
-                        >
-                            Contact
-                        </a>
-                        
-                    </div>
-                    <div class="space-y-6">
-                        <span class="w-full flex rounded-md shadow-sm">
-                            <a
-                                href="#"
-                                class="cursor-not-allowed w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-black bg-yellow-300 hover:bg-yellow-300 focus:outline-none focus:border-yellow-500 focus:shadow-outline-yellow active:bg-yellow-500 transition ease-in-out duration-150"
-                            >
-                                Sign up
-                            </a>
-                        </span>
-                        <p
-                            class="text-center text-base leading-6 font-medium text-gray-500"
-                        >
-                            Existing customer?
-                            <a
-                                href="#"
-                                class="cursor-not-allowed text-gray-500 hover:text-yellow-500 transition ease-in-out duration-150"
-                            >
-                                Sign in
-                            </a>
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
