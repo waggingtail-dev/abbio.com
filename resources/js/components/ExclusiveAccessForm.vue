@@ -153,6 +153,7 @@ export default {
     },
 
     _handleSubmit() {
+      var self = this;
       this.resetErrors()
       this.isLoading = true;
       this.validate()
@@ -160,7 +161,8 @@ export default {
           if(!this.has_errors) {
             axios.post('/api/campaign/subscribe', this.formData)
               .then( (res) => {
-                this.isLoading = false;
+                self.isLoading = false;
+                self.success = true;
               })
               .catch( (err) => {
                 this.isLoading = false;

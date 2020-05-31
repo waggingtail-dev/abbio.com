@@ -2111,12 +2111,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     _handleSubmit: function _handleSubmit() {
       var _this2 = this;
 
+      var self = this;
       this.resetErrors();
       this.isLoading = true;
       this.validate().then(function () {
         if (!_this2.has_errors) {
           axios.post('/api/campaign/subscribe', _this2.formData).then(function (res) {
-            _this2.isLoading = false;
+            self.isLoading = false;
+            self.success = true;
           })["catch"](function (err) {
             _this2.isLoading = false;
           });
