@@ -26,7 +26,7 @@ It’s how we earn customer loyalty and respect every day.
 Our surgical precision is what makes us so agile and accurate.
 
 #### Being Hungry
-When we win, our customers win – and we love playing offense.
+When we win, our customers win – and we love playing offence.
 
 #### Being Passionate
 We love what we do and do what we love. It’s the only way.
