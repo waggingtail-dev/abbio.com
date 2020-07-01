@@ -3,7 +3,7 @@
         <button
             @click="open = true"
             type="button"
-            class="z-50 inline-flex items-center justify-center p-2 rounded-md text-secondary-900 hover:text-gray-800 hover:bg-yellow-300 focus:outline-none focus:bg-yellow-100 focus:text-gray-800 transition duration-150 ease-in-out"
+            class="z-50 inline-flex items-center justify-center p-2 rounded-md text-secondary-900 hover:text-gray-800 hover:bg-primary-300 focus:outline-none focus:bg-primary-100 focus:text-gray-800 transition duration-150 ease-in-out"
             aria-label="Open Menu"
         >
             <svg
@@ -91,7 +91,7 @@
                                     aria-label="Close Menu"
                                     @click="open = false"
                                     type="button"
-                                    class="inline-flex items-center justify-center p-2 rounded-md text-primary-500 hover:text-yellow-300 hover:bg-gray-800 focus:outline-none focus:bg-primary-500 focus:text-gray-300 transition duration-150 ease-in-out"
+                                    class="inline-flex items-center justify-center p-2 rounded-md text-primary-500 hover:text-primary-300 hover:bg-gray-800 focus:outline-none focus:bg-primary-500 focus:text-gray-300 transition duration-150 ease-in-out"
                                 >
                                     <svg
                                         class="h-6 w-6"
@@ -137,7 +137,7 @@
                             <span class="w-full flex rounded-md shadow-sm">
                                 <a
                                     href="#"
-                                    class="cursor-not-allowed w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-secondary-900 bg-yellow-300 hover:bg-yellow-300 focus:outline-none focus:border-yellow-500 focus:shadow-outline-yellow active:bg-yellow-500 transition ease-in-out duration-150"
+                                    class="cursor-not-allowed w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-secondary-900 bg-primary-500 hover:bg-primary-300 focus:outline-none focus:border-primary-500 focus:shadow-outline-yellow active:bg-primary-500 transition ease-in-out duration-150"
                                 >
                                     Sign up
                                 </a>
@@ -148,7 +148,7 @@
                                 Existing customer?
                                 <a
                                     href="#"
-                                    class="cursor-not-allowed text-gray-500 hover:text-yellow-500 transition ease-in-out duration-150"
+                                    class="cursor-not-allowed text-gray-500 hover:text-primary-500 transition ease-in-out duration-150"
                                 >
                                     Sign in
                                 </a>
