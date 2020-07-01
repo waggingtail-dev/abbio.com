@@ -1,21 +1,21 @@
 /* This is all you. */
 
 h1 {
-  @apply text-3xl font-black leading-none text-gray-800 mb-6;
+  @apply text-3xl font-black leading-none text-secondary-900 mb-6;
   @screen md {
     @apply text-6xl;
   }
 }
 
 h2 {
-  @apply text-2xl font-bold text-gray-800 leading-tight mb-2;
+  @apply text-2xl font-bold text-secondary-900 leading-tight mb-2;
   @screen md {
     @apply text-3xl;
   }
 }
 
 h3, h4 {
-  @apply font-bold text-gray-800 leading-tight mb-2;
+  @apply font-bold text-secondary-900 leading-tight mb-2;
   @screen md {}
 }
 
