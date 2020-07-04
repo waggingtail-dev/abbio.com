@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-require('laravel-mix-purgecss');
 
 mix.js('resources/js/site.js', 'public/js')
 
@@ -12,5 +11,4 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
 
 if (mix.inProduction()) {
    mix.version();
-   mix.purgeCss({ enabled: true });
 }
