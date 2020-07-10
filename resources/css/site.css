@@ -1,7 +1,7 @@
 /* This is all you. */
 
 h1 {
-  @apply text-3xl font-black leading-none text-secondary-900 mb-6;
+  @apply text-4xl font-black leading-none text-secondary-900 mb-6;
   @screen md {
     @apply text-6xl;
   }
