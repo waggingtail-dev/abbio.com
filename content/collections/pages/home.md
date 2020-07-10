@@ -3,7 +3,7 @@ title: 'Welcome to Abbio'
 template: home
 author: cdd6d446-fbf6-4797-88f3-96075e42fb82
 updated_by: cdd6d446-fbf6-4797-88f3-96075e42fb82
-updated_at: 1594358366
+updated_at: 1594411425
 hero_image: hero.svg
 id: home
 content:
@@ -29,18 +29,6 @@ content:
       -
         type: text
         text: 'We''re in development, and while we build up the Abbio framework, we''d love you to join us as we create something that works.'
-  -
-    type: paragraph
-  -
-    type: heading
-    attrs:
-      level: 4
-    content:
-      -
-        type: text
-        text: 'Sign up to get notified when it’s ready.'
-  -
-    type: paragraph
   -
     type: paragraph
 ---

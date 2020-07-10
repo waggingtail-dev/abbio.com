@@ -15,3 +15,16 @@ sections:
           localizable: false
           listable: hidden
           display: Description
+      -
+        handle: image
+        field:
+          mode: grid
+          container: assets
+          folder: /
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          type: assets
+          localizable: false
+          listable: hidden
+          display: Image
