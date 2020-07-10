@@ -133,27 +133,7 @@
                                 Contact
                             </a>
                         </div>
-                        <div class="space-y-6">
-                            <span class="w-full flex rounded-md shadow-sm">
-                                <a
-                                    href="#"
-                                    class="cursor-not-allowed w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-secondary-900 bg-primary-500 hover:bg-primary-300 focus:outline-none focus:border-primary-500 focus:shadow-outline-yellow active:bg-primary-500 transition ease-in-out duration-150"
-                                >
-                                    Sign up
-                                </a>
-                            </span>
-                            <p
-                                class="text-center text-base leading-6 font-medium text-gray-500"
-                            >
-                                Existing customer?
-                                <a
-                                    href="#"
-                                    class="cursor-not-allowed text-gray-500 hover:text-primary-500 transition ease-in-out duration-150"
-                                >
-                                    Sign in
-                                </a>
-                            </p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

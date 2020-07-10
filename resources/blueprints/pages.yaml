@@ -1,4 +1,4 @@
-title: Default
+title: Pages
 sections:
   main:
     display: Main
@@ -10,6 +10,9 @@ sections:
             - h1
             - h2
             - h3
+            - h4
+            - h5
+            - h6
             - bold
             - italic
             - unorderedlist
@@ -19,12 +22,10 @@ sections:
             - anchor
             - image
             - table
-            - h4
-            - h5
-            - h6
             - underline
+            - strikethrough
             - code
-            - codeblock
+          container: assets
           save_html: false
           toolbar_mode: floating
           link_noopener: false
@@ -37,18 +38,24 @@ sections:
           localizable: false
           listable: hidden
           display: Content
-          container: assets
       -
-        handle: author
+        handle: hero_image
         field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
+          mode: grid
+          container: assets
+          folder: /
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          type: assets
+          localizable: false
+          listable: hidden
+          display: 'Hero image'
       -
         handle: template
         field:
+          hide_partials: true
           type: template
+          localizable: false
+          listable: hidden
           display: Template
-          localizable: true

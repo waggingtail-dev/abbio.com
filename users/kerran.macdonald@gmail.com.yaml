@@ -2,3 +2,16 @@ name: Kerranm
 super: true
 id: cdd6d446-fbf6-4797-88f3-96075e42fb82
 password_hash: $2y$10$ffO92/Tn4fi6ekYikfnW9.IhP10KeJeyi0mEkDk0ps4vVv9GTnTai
+preferences:
+  forms:
+    interested_form:
+      columns:
+        - email_address
+        - datestamp
+    general_contact_us_form:
+      columns:
+        - datestamp
+        - name
+        - email
+        - phone
+        - message

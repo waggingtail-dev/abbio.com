@@ -1,4 +1,6 @@
 title: Pages
+blueprints:
+  - pages
 revisions: false
 route: '{parent_uri}/{slug}'
 structure:

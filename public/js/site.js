@@ -2284,26 +2284,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -21362,50 +21342,6 @@ var staticRenderFns = [
           [
             _vm._v(
               "\n                              Contact\n                          "
-            )
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "space-y-6" }, [
-        _c("span", { staticClass: "w-full flex rounded-md shadow-sm" }, [
-          _c(
-            "a",
-            {
-              staticClass:
-                "cursor-not-allowed w-full flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-secondary-900 bg-primary-500 hover:bg-primary-300 focus:outline-none focus:border-primary-500 focus:shadow-outline-yellow active:bg-primary-500 transition ease-in-out duration-150",
-              attrs: { href: "#" }
-            },
-            [
-              _vm._v(
-                "\n                                  Sign up\n                              "
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c(
-          "p",
-          {
-            staticClass:
-              "text-center text-base leading-6 font-medium text-gray-500"
-          },
-          [
-            _vm._v(
-              "\n                              Existing customer?\n                              "
-            ),
-            _c(
-              "a",
-              {
-                staticClass:
-                  "cursor-not-allowed text-gray-500 hover:text-primary-500 transition ease-in-out duration-150",
-                attrs: { href: "#" }
-              },
-              [
-                _vm._v(
-                  "\n                                  Sign in\n                              "
-                )
-              ]
             )
           ]
         )

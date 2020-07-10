@@ -1,0 +1,14 @@
+title: 'Interested mailing list'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: email_address
+        field:
+          input_type: email
+          type: text
+          localizable: false
+          listable: hidden
+          display: 'Email address'
+          validate: email
