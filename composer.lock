@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e59776e39240b49da2b3334abc11b09e",
+    "content-hash": "d60947df106591a176cc6cc1cec3fb79",
     "packages": [
         {
             "name": "activecampaign/api-php",
@@ -3369,6 +3369,7 @@
             "keywords": [
                 "prosemirror"
             ],
+            "abandoned": "ueberdosis/html-to-prosemirror",
             "time": "2020-06-23T19:07:52+00:00"
         },
         {
@@ -3412,6 +3413,7 @@
             "keywords": [
                 "prosemirror"
             ],
+            "abandoned": "ueberdosis/prosemirror-to-html",
             "time": "2020-06-23T19:09:42+00:00"
         },
         {
@@ -3557,16 +3559,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.0-beta.36",
+            "version": "v3.0.0-beta.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "62227c43886f2c242036d79fc44a13ea46a205c2"
+                "reference": "f673d8de205f6d47f3b0243ff7de1e95f651dffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/62227c43886f2c242036d79fc44a13ea46a205c2",
-                "reference": "62227c43886f2c242036d79fc44a13ea46a205c2",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/f673d8de205f6d47f3b0243ff7de1e95f651dffb",
+                "reference": "f673d8de205f6d47f3b0243ff7de1e95f651dffb",
                 "shasum": ""
             },
             "require": {
@@ -3628,7 +3630,7 @@
                 "laravel",
                 "statamic"
             ],
-            "time": "2020-07-09T14:44:26+00:00"
+            "time": "2020-07-10T14:20:38+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -8543,9 +8545,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "statamic/cms": 10
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
