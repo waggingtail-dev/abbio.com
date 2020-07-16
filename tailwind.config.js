@@ -41,8 +41,29 @@ module.exports = {
           },
       }
     },
+    typography: {
+      default: {
+        css: {
+          ul: {
+            li: {
+              '&:before': {
+                backgroundColor: '#000000',
+              },
+            }
+          },
+          color: '#1a202c',
+          a: {
+            color: '#3182ce',
+            '&:hover': {
+              color: '#2c5282',
+            },
+          },
+        },
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/ui'),
+    require('@tailwindcss/typography'),
   ]
 }

@@ -1,5 +1,5 @@
 /* This is all you. */
-
+/* 
 h1 {
   @apply text-4xl font-black leading-none text-secondary-900 mb-6;
   @screen md {
@@ -21,7 +21,7 @@ h3, h4 {
 
 p {
   @apply text-base font-light leading-normal mb-2;
-}
+} */
 
 /* general links */
 a.highlighted {
@@ -55,9 +55,6 @@ a {
   @apply text-primary-600 mb-0 pb-0;
 }
 
-ul {
-  @apply list-disc pl-6;
-}
 
 @font-face {
   font-family: 'Inter';
