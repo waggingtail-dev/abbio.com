@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
+
+Route::get('/help-us-make-something-amazing', function(){
+    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSdL71zGPPJO17AMfhWoaChfgGKuZp4HVhRZ9wMSLFH10nZZlg/viewform?usp=sf_link');
+});
